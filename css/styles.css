@@ -1,0 +1,42 @@
+/* Variables de colores en RGB */
+:root {
+    --primary-pink: rgb(255, 51, 187);
+    --neutral-very-pale-cyan: rgb(208, 255, 255);
+    --neutral-very-dark-cyan: rgb(0, 25, 23);
+    --neutral-grayish-blue: rgb(122, 140, 178);
+  }
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: var(--);
+    font-size: 1.5rem;
+}
+
+/* Utility */
+
+/* Utility classes are set to avoid code duplication when expanding the website */
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.center-content {
+    text-align: center;
+}
+
+/**  Header     **/
+
+.header {
+    height: 5rem;
+    background-image: url(/images/bg-hero-desktop.svg);
+    /* background-color: var(--neutral-very-pale-cyan); */
+    
+}
